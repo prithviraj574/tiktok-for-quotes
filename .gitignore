@@ -1,0 +1,75 @@
+# remove large files
+data/quotes.csv
+data/test.txt
+data/valid.txt
+data/train.txt
+
+# ===========================
+# Python FastAPI Backend
+# ===========================
+
+# Virtual environment
+venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Logs, databases, and environment variables
+*.log
+db.sqlite3
+env
+.env
+.env.*
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Testing and coverage
+.coverage
+*.cover
+htmlcov/
+.cache/
+
+# Mypy
+.mypy_cache/
+.dmypy.json
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Docker (if applicable)
+*.pid
+docker-compose.override.yml
+
+
+# ===========================
+# React Frontend (inside "frontend" folder)
+# ===========================
+
+# Dependencies
+frontend/node_modules/
+
+# Production build
+frontend/build/
+
+# Environment files (if not needed in repo)
+frontend/.env
+frontend/.env.*
+
+# Log files
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# macOS specific file
+frontend/.DS_Store
