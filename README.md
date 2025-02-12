@@ -1,6 +1,6 @@
 # Engaging TikTok-like Quote Feed
 
-This project aims to deliver an engaging, TikTok-inspired feed featuring quotes that capture user interest. By combining state-of-the-art embedding techniques with a Two-Tower collaborative filtering model, the system recommends personalized quotes and adapts to user preferences over time.
+This project aims to deliver an engaging, TikTok-inspired feed featuring quotes that capture user interest.
 
 ---
 
